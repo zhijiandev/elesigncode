@@ -14,7 +14,7 @@ export default {
             default:"#333"
         },
         lineWidth:{
-            default:4
+            default:10
         },
         bgColor:{
             default:-1
@@ -49,6 +49,9 @@ export default {
         },
         redo(){
             this.signcodeEx.redo()
+        },
+		clear(){
+          this.signcodeEx.clear()
         },
         resize(){
             this.signcodeEx.resize()    
